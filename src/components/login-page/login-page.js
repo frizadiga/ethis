@@ -8,7 +8,7 @@ const LoginPage = (props) => {
   const responseFacebook = (response) => {
     localStorage.isLogin = 'true'
     console.log(response);
-    history.push('/');
+    history.push('/home');
   }
 
   const fnSubmit = (event) => {

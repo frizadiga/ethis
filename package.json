@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "gh-pages-clean && gh-pages -d build -b master"
+    "deploy": "gh-pages-clean && gh-pages -d build -b master",
+    "gh": "npm run build && npm run deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
